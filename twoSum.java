@@ -6,7 +6,7 @@ public class twoSum {
 
             Map<Integer, Integer> map = new HashMap<>();
 
-            for (int i = 0; i<= nums[i]-1; i++) {
+            for (int i = 0; i<= nums.length-1; i++) {
 
                 int num2 = target - nums[i];
 
